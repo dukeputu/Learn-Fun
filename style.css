@@ -56,8 +56,9 @@ text-decoration: none;
 ******************** */
 
 
-
-
+/* *********************
+Feedback 
+******************** */
 .bi-chevron-left,
 .bi-chevron-right {
     font-size: 30px;
@@ -91,6 +92,10 @@ text-decoration: none;
     position: absolute;
     right: -18px;
 }
+
+/* *********************
+Feedback 
+******************** */
 
 .company img{
     width: 100px;
