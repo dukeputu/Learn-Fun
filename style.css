@@ -1,0 +1,99 @@
+ul {
+    list-style: none;
+}
+a{
+text-decoration: none;
+}
+
+.img-gradient {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5));
+    border-radius: 20px;
+
+}
+
+.img-gradient img {
+    border-radius: 20px;
+
+}
+
+#carouselExampleCaptions1 .carousel-item {
+    border-radius: 20px;
+
+}
+#carouselExampleCaptions1 .carousel-inner {
+    border-radius: 20px;
+
+}
+
+.bi-chevron-left,
+.bi-chevron-right {
+    font-size: 30px;
+    color: #000;
+    width: 50px;
+    height: 50;
+    border: gray 1px solid;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.bi-chevron-left:hover {
+    color: #fff;
+    background: #289BDE;
+}
+
+
+.bi-chevron-right:hover {
+    color: #fff;
+    background: #289BDE;
+}
+
+
+.bi-chevron-left {
+    position: absolute;
+    left: -18px;
+}
+
+.bi-chevron-right {
+    position: absolute;
+    right: -18px;
+}
+.company img{
+    width: 100px;
+    height: 30px;
+}
+
+footer{
+    height: 250px;
+}
+
+@media (max-width: 995px) {
+    .navbar-collapse {
+        background: rgb(255 255 255 / 95%);
+        position: absolute;
+        z-index: 99;
+        width: 85%;
+        padding: 13px 30px;
+        border-radius: 20px;
+        top: 80px;
+
+    }
+
+    .top-50 {
+        top: 20% !important;
+    }
+}
