@@ -18,7 +18,9 @@ text-decoration: none;
 /* *********************
  Banner Color Overley
 ******************** */
-
+.start-10{
+    left: 12%;
+}
 
 
 .img-gradient {
